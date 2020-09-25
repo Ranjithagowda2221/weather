@@ -1,0 +1,24 @@
+.jumbotron {
+  background-color: #3d5063 !important;
+}
+.jumbotron > h3 {
+  color: white;
+  font-family: cursive;
+}
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+.btn-primary {
+background-color: #4d5761;
+font-family: cursive;
+}
