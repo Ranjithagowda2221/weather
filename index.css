@@ -19,6 +19,41 @@
   }
 }
 .btn-primary {
-background-color: #4d5761;
-font-family: cursive;
+  background-color: #4d5761;
+  font-family: cursive;
+}
+.starrr {
+  display: inline-block;
+}
+
+.starrr a {
+  font-size: 16px;
+  padding: 0 1px;
+  cursor: pointer;
+  color: #ffd119;
+  text-decoration: none;
+}
+.form-group {
+  margin: 20px;
+  margin-left: 25px;
+}
+.form-group .form-control {
+  background-color: #9eca9e;
+  width: 15%;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 10px;
+}
+.rating-icon {
+  margin-bottom: 10px;
+}
+.form-control input[type="text"] {
+  margin-bottom: 10px;
+}
+
+.submitBtn {
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid silver;
+  background: skyblue;
 }
